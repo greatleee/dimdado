@@ -1,0 +1,31 @@
+header {
+  top: 0;
+  margin: 0;
+  background-color: #abb5bd;
+}
+
+header div {
+  color: black;
+}
+
+main {
+  height: 100vh;
+}
+
+.icon {
+  position: absolute;
+  width: 7.5%;
+  cursor: move;
+}
+
+.icon .img-container {
+  position: relative;
+  height: 0px;
+  width: 100%;
+  padding-bottom: 100%;
+}
+
+.icon .img-container img {
+  width: 100%;
+  height: auto;
+}
